@@ -63,6 +63,16 @@ namespace SpaceShooter.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asteroid {
+            get {
+                object obj = ResourceManager.GetObject("asteroid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blaster {
             get {
                 object obj = ResourceManager.GetObject("blaster", resourceCulture);
@@ -73,9 +83,29 @@ namespace SpaceShooter.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap laser_cartoon {
+            get {
+                object obj = ResourceManager.GetObject("laser_cartoon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap space {
             get {
                 object obj = ResourceManager.GetObject("space", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap space_bg {
+            get {
+                object obj = ResourceManager.GetObject("space-bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
